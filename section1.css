@@ -1,0 +1,67 @@
+
+/*base for all*/
+
+.section .one {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+
+/*header*/
+
+header {
+    flex: 0 1 auto;
+    height: auto;
+    align-items: center;
+    display: flex;
+}
+
+header .logo {
+    color: #f9faf8;
+    font-size: 24px;
+    flex: 1;
+}
+
+header .links {
+    flex: 1;
+    display: flex;
+}
+
+.links a {
+    flex: 1;
+    gap: 10px;
+
+}
+
+/*content*/
+
+.content {
+    display: flex;
+    gap: 15px;
+}
+
+.left {
+    flex: 1;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    
+}
+
+.hero-secondary, header .links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.right {
+    flex: 1;
+    background-color: #e5e7eb;
+    margin-top: 40px;
+    color: white;
+}
+
