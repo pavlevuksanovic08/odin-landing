@@ -1,0 +1,32 @@
+
+
+.info-title {
+    font-size: 36px;
+    color: #1f2973;
+    font-weight: 900;
+    text-align: center;
+}
+
+.big-container {
+    display: flex;
+    gap: 30px;
+    padding: 25px;
+}
+
+.data-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.data {
+    border: 3px solid #3882f6;
+    border-radius: 20px;
+    aspect-ratio: 1/1;
+    flex: 1;
+}
+
+.data-text {
+    flex: 1;
+}
+
