@@ -1,0 +1,44 @@
+.fourth {
+    background-color: #3882f6;
+    color: white;
+    margin: 30px;
+    border-radius: 5px;
+
+}
+
+.spacing {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.paragraph {
+    text-align: left;
+}
+
+.paragraph .bolder{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0px;
+    flex: 1;
+}
+
+.paragraph .lighter {
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+.btn {
+    height: 40px;
+    background-color: #3882f6;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: white;
+    max-width: 150px;
+    flex: 1;
+}
+

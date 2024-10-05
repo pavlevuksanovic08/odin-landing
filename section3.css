@@ -1,0 +1,22 @@
+
+.three {
+    background-color: #e5e7eb;
+
+}
+
+.third .paragraph {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
+}
+
+.third {
+    padding: 25px;
+}
